@@ -22,4 +22,5 @@ Söker efter en plats baserat på dess indata och returnerar de platser som matc
 Söker efter en resa mellan Örebro Centralstation och den valda platsen. Sökningen från Örebro centralstation är hårdkodad och går endast att ändra i koden för WebService. Detta id är ett nummer som resrobots API tillhandahåller, denna används alltså inte för att söka med baserat på namnet av en plats.
 
 /tripandweather/{id}
+
 Den används inte av min klient, men den kan användas via webbläsare. id är namnet på en plats. WebService söker sedan efter id i resrobots API och tar den första som matchar och söker efter en resa från Örebro central station med den  strängen. Den ger också vädret vid ankomsttiden.
